@@ -2,3 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaCyrillicLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaCyrillicBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  .text-gradient {
+    background: linear-gradient(90deg, #BD2FA9 26.88%, #9772FF 105.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
