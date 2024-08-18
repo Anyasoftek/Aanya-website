@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
               <li><a href="/terms">Terms and Condition</a></li>
               <li><a href="/privacy">Privacy</a></li>
               <li><a href="/faq">Aanya Softek</a></li>
-              <li><a href="/careers">Anya softek</a></li>
+              <li><a href="/careers">Clientèle</a></li>
             </ul>
           </div>
 

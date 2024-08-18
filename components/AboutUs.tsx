@@ -29,13 +29,13 @@ const Mission: React.FC<MissionProps> = () => {
         >
           <h3
         
-            className="flex justify-center text-grey md:justify-start font-gilroy tracking-wider sm:tracking-widest font-normal text-tcolor md:pr-8 text-base sm:text-xl"
+            className="flex justify-center text-grey md:justify-start font-gilroy tracking-wider sm:tracking-widest font-normal text-tcolor md:pr-6 text-base sm:text-xl"
           >
             ABOUT US
           </h3>
           <h2
             
-            className="md:mt-0 flex justify-center md:justify-start mb-4 font-gilroy tracking-wider sm:tracking-widest font-medium md:text-black dark:text-white sm:pr-2 md:pr-8 text-2xl sm:text-5xl"
+            className="md:mt-2 flex justify-center md:justify-start mb-4 font-gilroy tracking-wider sm:tracking-widest font-medium md:text-black dark:text-white sm:pr-2 md:pr-8 text-2xl sm:text-5xl"
           >
             Our Mission
           </h2>
@@ -69,22 +69,16 @@ const Mission: React.FC<MissionProps> = () => {
               className="flex flex-wrap justify-center items-center"
             >
               <Image
-                style={{
-                  borderRadius: "1rem",
-                  border: "1px solid #0871BE",
-                }}
+                 
                 src={frame3}
                 alt="frame3"
                 width={175}
                 height={175}
-                className="md:max-w-full md:h-[175px] h-[100px] md:mt-0 mt-4 lg:mt-6 lg:mr-2 lg:mb-0"
+                className="md:max-w-full md:h-[175px] h-[100px] md:mt-0 mt-2 lg:mt-6 lg:mr-2 lg:mb-0"
                 data-aos="fade-down-right"
               />
               <Image
-                style={{
-                  borderRadius: "1rem",
-                  border: "1px solid #0871BE",
-                }}
+                 
                 src={frame2}
                 alt="frame2"
                 width={125}
@@ -95,27 +89,21 @@ const Mission: React.FC<MissionProps> = () => {
             </CardItem>
             <CardItem className="flex flex-wrap justify-center">
               <Image
-                style={{
-                  borderRadius: "1rem",
-                  border: "1px solid #0871BE",
-                }}
+                
                 src={frame4}
                 alt="frame4"
                 width={125}
                 height={125}
-                className="md:max-w-full md:h-[125px] h-[100px] md:mt-0 mt-2 md:mr-0 mr-2 lg:mt-2 lg:mr-2 lg:mb-0"
+                className="md:max-w-full md:h-[125px] h-[100px] md:mt-0  md:mr-0 mr-2 lg:mt-2 lg:mr-2 lg:mb-0"
                 data-aos="fade-up-right"
               />
               <Image
-                style={{
-                  borderRadius: "1rem",
-                  border: "1px solid #0871BE",
-                }}
+                 
                 src={frame1}
                alt="frame"
                 width={200}
                 height={200}
-                className="md:max-w-full md:h-[200px] h-[100px] md:mt-0 mt-2 lg:mt-2 mb-4 lg:mb-0"
+                className="md:max-w-full md:h-[200px] h-[100px]  lg:mt-2 mb-4 lg:mb-0"
                 data-aos="fade-up-left"
               />
             </CardItem>

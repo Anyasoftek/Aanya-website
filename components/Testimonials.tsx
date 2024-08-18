@@ -36,12 +36,12 @@ const Testimonials = () => {
             photoUrl={photo}
            iconUrl={icon}
            name="Mukesh"
-           content="Anya Softek's expertise in web development is unparalleled. Their team delivered a sleek and functional website "/>
+           content="Collaborating with Aanyaa Softek was indeed a great experience. Their business development team was exceptionally thorough during our meetings, ensuring they understood our needs perfectly. "/>
             <TestimonialCard 
             photoUrl={photo}
            iconUrl={icon}
            name="Rajiv Ranjan"
-           content="The mobile app developed by Anya Softek exceeded our expectations. The innovative solutions and user-friendly design have significantly enhanced "/>
+           content="They developed a highly interactive website with outstanding UI/UX design, all in a truly agile manner. The result? A remarkable increase in customer engagement and satisfaction. Couldn't be happier! "/>
             </div>
       </div>
      
